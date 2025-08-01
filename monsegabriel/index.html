@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parliament of Monse and Gabriel - Official Relationship Statutes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Official Government Website Banner -->
+    <div class="official-banner">
+        <div class="banner-content">
+            <span class="banner-text">This is an official website of the Government of Monse and Gabriel</span>
+        </div>
+    </div>
+
+    <header class="gov-header">
+        <div class="header-content">
+            <div class="seal">
+                <div class="seal-inner">
+                    <span>MG</span>
+                </div>
+            </div>
+            <div class="header-text">
+                <h1>PARLIAMENT OF MONSE AND GABRIEL</h1>
+                <h2>OFFICIAL RELATIONSHIP STATUTES</h2>
+                <p class="subtitle">Established for the Betterment of Domestic Harmony</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="gov-nav">
+        <ul>
+            <li><a href="#constitution">Constitution</a></li>
+            <li><a href="#laws">Active Laws</a></li>
+            <li><a href="#amendments">Amendments</a></li>
+            <li><a href="#legislation">Propose Legislation</a></li>
+        </ul>
+    </nav>
+
+    <main class="gov-main">
+        <section id="constitution" class="gov-section">
+            <h2>DOMESTIC CONSTITUTION</h2>
+            <div class="constitution-preamble">
+                <p><strong>We the People of this Household,</strong> in order to form a more perfect union, establish domestic tranquility, provide for the common defense against external threats (like in-laws), promote the general welfare, and secure the blessings of love and Netflix to ourselves and our posterity, do ordain and establish this Constitution for the Domestic Republic.</p>
+            </div>
+        </section>
+
+        <section id="laws" class="gov-section">
+            <h2>ACTIVE DOMESTIC LAWS</h2>
+            <div class="laws-container" id="lawsContainer">
+                <!-- Laws will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="amendments" class="gov-section">
+            <h2>CONSTITUTIONAL AMENDMENTS</h2>
+            <div class="amendments-container" id="amendmentsContainer">
+                <!-- Amendments will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="legislation" class="gov-section">
+            <h2>PROPOSE NEW LEGISLATION</h2>
+            <div class="legislation-form">
+                <form id="lawForm">
+                    <div class="form-group">
+                        <label for="lawTitle">Law Title (Article Number):</label>
+                        <input type="text" id="lawTitle" placeholder="e.g., Article I: The Remote Control Protocol" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lawDescription">Law Description:</label>
+                        <textarea id="lawDescription" placeholder="Describe the law in official government language..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="lawCategory">Category:</label>
+                        <select id="lawCategory" required>
+                            <option value="">Select Category</option>
+                            <option value="household">Household Management</option>
+                            <option value="communication">Communication Protocol</option>
+                            <option value="entertainment">Entertainment & Leisure</option>
+                            <option value="finance">Financial Regulations</option>
+                            <option value="social">Social Conduct</option>
+                            <option value="emergency">Emergency Procedures</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="penalty">Penalty for Violation:</label>
+                        <input type="text" id="penalty" placeholder="e.g., Mandatory foot massage for 30 minutes">
+                    </div>
+                    <button type="submit" class="gov-button">ENACT LEGISLATION</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="gov-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Government of Monse and Gabriel. All rights reserved.</p>
+            <p>This is an official government document. Violators will be prosecuted to the fullest extent of domestic law.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
